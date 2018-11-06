@@ -9,7 +9,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 35vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,3 +30,54 @@
     transform: rotate(360deg);
   }
 }
+
+/*CCS for MovieForm*/
+
+.MovieForm {
+  width: 500px;
+  margin: 0 auto;
+  text-align: left;
+ }
+
+ .MovieForm fieldset {
+  height: 415px;  
+  margin: 10px;
+ }
+ 
+ .MovieForm h1 {
+  text-align: center;
+ }
+
+ .MovieForm legend {
+  text-align: center;
+ }
+ 
+ .MovieForm .form-data {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0;
+ }
+ 
+ .MovieForm .form-data label {
+  display: inline-block;
+  width: 75px;
+  margin-right: 10px;
+  text-align: right;
+ }
+
+ .MovieForm textarea {
+   min-width: 380px;
+   max-width: 380px;
+   min-height: 280px;
+   max-height: 280px;
+ }
+
+ .MovieForm .submitBtn {
+   padding: 4px;
+   height: 40px;
+   width: 100px;
+ }
+ 
+ .MovieForm .form-data input:not([type="submit"]) {
+  flex-grow: 1;
+ }
